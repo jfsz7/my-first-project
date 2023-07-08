@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff ;
+    font-family: "Segoe UI","Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    letter-spacing: -1px;
+    padding: 12px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    color: #bd021e;
+    cursor: pointer;
+}
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 4px;
+}
+.menus {
+    display: flex; 
+    list-style: none;
+}
+.btn {
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(33, 25, 34);
+    background-color: #efefef;
+    transition-duration: 0.4s;
+    background-color: #e60023;
+}
+.btn-log {
+    background-color: #e60023;
+    color: #fff;
+}
+.btn-log .btn-sign:hover{
+    background-color:rgb(5, 131, 250);
+}
+.banner-container{
+    display: flex;
+}
